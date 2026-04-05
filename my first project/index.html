@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kahli Beats - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Featured Beats */
+    #featured-beats { padding: 60px 20px; text-align: center; background-color: #f0f0f0; }
+    #featured-beats h2 { font-size: 36px; margin-bottom: 40px; }
+    .beat-slider { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 20px; }
+    .beat-slider::-webkit-scrollbar { display: none; }
+    .beat-item { min-width: 250px; background: white; padding: 20px; border-radius: 10px; border: 1px solid #ddd; text-align: center; }
+    .beat-item audio { width: 100%; margin: 10px 0; }
+
+    /* Testimonials */
+    #testimonials { padding: 60px 20px; background-color: #111; color: white; text-align: center; }
+    #testimonials h2 { font-size: 36px; margin-bottom: 40px; }
+    .testimonial { max-width: 600px; margin: 20px auto; font-style: italic; }
+
+    /* CTA Section */
+    #cta-home { padding: 60px 20px; background-color: #67a9ff; color: white; text-align: center; }
+    #cta-home h2 { font-size: 36px; margin-bottom: 20px; }
+    #cta-home .btn { margin: 10px; }
+
+    /* Studio Video */
+    #studio-video { padding: 60px 20px; text-align: center; }
+    #studio-video video { max-width: 90%; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="beats.html">Beats</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hero Section (existing) -->
+  <div class="hero">
+    <h1>Kahli Beats</h1>
+    <h2>High-quality production for those ready to turn their lyrics into legacies.</h2>
+    <p>Every legendary track starts with a world-class foundation. At Kahli Music, I provide the textures, rhythms, and energy you need to stand out in a crowded industry.</p>
+    <a href="beats.html" class="btn">Browse Beats</a>
+  </div>
+
+  <!-- Featured Beats Section -->
+<section id="featured-beats">
+  <h2>Featured Beats</h2>
+
+  <div class="beat-grid">
+
+    <div class="beat-card">
+      <img src="images/Alone.PNG" alt="Afro Bounce cover art">
+
+      <div class="beat-info">
+        <h3>Afrobeats</h3>
+        <p>Energetic afro-inspired beat with powerful drums and smooth melodies.</p>
+
+        <audio controls class="audio-player">
+          <source src="beats/mps/Alone.mp3" type="audio/mp3">
+          
+        </audio>
+
+        <a href="beats.html" class="section-btn">Lease Beat</a>
+      </div>
+    </div>
+
+    <div class="beat-card">
+      <img src="images/Demon.PNG" alt="Trap Vibe cover art">
+
+      <div class="beat-info">
+        <h3>Trap Vibe</h3>
+        <p>Dark modern trap sound with heavy 808s and cinematic energy.</p>
+
+        <audio controls class="audio-player">
+        <source src="beats/dark trap.mp3" type="audio/mp3">
+          
+        </audio>
+
+        <a href="beats.html" class="section-btn">Lease Beat</a>
+      </div>
+    </div>
+
+    <div class="beat-card">
+      <img src="images/kaii nah.PNG" alt="Lo-Fi Chill cover art">
+
+      <div class="beat-info">
+        <h3>Amapiano</h3>
+        <p>Relaxed atmospheric beat for smooth vocals and storytelling.</p>
+
+        <audio controls class="audio-player">
+          <source src="beats/kaii nahh.mp3" type="audio/mp3">
+        </audio>
+
+        <a href="beats.html" class="section-btn">Lease Beat</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Artists Say</h2>
+    <div class="testimonial">
+      <p>"Kahli Beats took my track to the next level — incredible quality!"</p>
+      <strong>- Artist Name</strong>
+    </div>
+    <div class="testimonial">
+      <p>"The beats are fire, and the service is professional. Highly recommend!"</p>
+      <strong>- Another Artist</strong>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <section id="cta-home">
+    <h2>Ready to Make Your Hit?</h2>
+    <a href="beats.html" class="btn">Browse Beats</a>
+    <a href="contact.html" class="btn">Request Custom Beat</a>
+  </section>
+
+  <!-- Studio Video Section -->
+  <section id="studio-video">
+    <h2>Behind the Beats</h2>
+    <video controls>
+      <source src="video/studio-tour.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+  <section id="new-section">
+  <h2>New Releases</h2>
+  <p>Check out the hottest beats dropping this month!</p>
+  <!-- Add content like audio previews or images here -->
+</section>
+
+  <footer>
+    <p>©️ 2026 Kahli Music | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+
